@@ -1,0 +1,108 @@
+[
+  {
+    "id": "fruits",
+    "displayName": "Fruits",
+    "foodCategories": [
+      "fruit"
+    ]
+  },
+  {
+    "id": "vegetables",
+    "displayName": "Vegetables",
+    "foodCategories": [
+      "vegetable",
+      "leafyVegetable"
+    ]
+  },
+  {
+    "id": "cerealsAndMillets",
+    "displayName": "Cereals & Millets",
+    "foodCategories": [
+      "cereal",
+      "millet"
+    ]
+  },
+  {
+    "id": "pulsesAndLegumes",
+    "displayName": "Pulses & Legumes",
+    "foodCategories": [
+      "pulse",
+      "legume"
+    ]
+  },
+  {
+    "id": "spices",
+    "displayName": "Spices",
+    "foodCategories": [
+      "spice"
+    ]
+  },
+  {
+    "id": "nutsAndSeeds",
+    "displayName": "Nuts & Seeds",
+    "foodCategories": [
+      "nut",
+      "seed"
+    ]
+  },
+  {
+    "id": "dairy",
+    "displayName": "Dairy",
+    "foodCategories": [
+      "dairy"
+    ]
+  },
+  {
+    "id": "eggs",
+    "displayName": "Eggs",
+    "foodCategories": [
+      "egg"
+    ]
+  },
+  {
+    "id": "meat",
+    "displayName": "Meat",
+    "foodCategories": [
+      "meat",
+      "poultry"
+    ]
+  },
+  {
+    "id": "fishAndSeafood",
+    "displayName": "Fish & Seafood",
+    "foodCategories": [
+      "fish",
+      "seafood"
+    ]
+  },
+  {
+    "id": "oilsAndFats",
+    "displayName": "Oils & Fats",
+    "foodCategories": [
+      "oil",
+      "fat"
+    ]
+  },
+  {
+    "id": "sweeteners",
+    "displayName": "Sweeteners",
+    "foodCategories": [
+      "sweetener"
+    ]
+  },
+  {
+    "id": "indianDishes",
+    "displayName": "Indian Dishes",
+    "foodCategories": [
+      "indianDish"
+    ]
+  },
+  {
+    "id": "herbsAndIngredients",
+    "displayName": "Herbs & Ingredients",
+    "foodCategories": [
+      "herb",
+      "ingredient"
+    ]
+  }
+]

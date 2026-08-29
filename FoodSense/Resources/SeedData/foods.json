@@ -1,0 +1,1683 @@
+[
+  {
+    "id": "food-pomegranate",
+    "name": "Pomegranate",
+    "category": "fruit",
+    "scientificName": "Punica granatum",
+    "aliases": [
+      "Anar",
+      "Annar"
+    ],
+    "regionalNames": {
+      "hindi": "Anar",
+      "tamil": "Mathulai",
+      "telugu": "Danimma",
+      "malayalam": "Mathalam",
+      "kannada": "Dalimbey"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "ifct-2017"
+    ],
+    "demo": false,
+    "nutrition": {
+      "basis": "100g",
+      "energyKcal": 83,
+      "proteinG": 1.67,
+      "carbohydrateG": 18.7,
+      "fatG": 1.17,
+      "sugarG": 13.67,
+      "fiberG": 4.0,
+      "sodiumMg": 3
+    },
+    "healthProfile": {
+      "summary": "Generally suitable as part of a balanced diet.",
+      "benefits": [
+        {
+          "id": "fact-pomegranate-fiber",
+          "title": "Contains dietary fiber",
+          "description": "Pomegranate contains dietary fiber, which can contribute to everyday eating patterns when consumed as part of a balanced diet.",
+          "type": "benefit",
+          "evidenceLevel": "moderate",
+          "sourceIDs": [
+            "ifct-2017"
+          ]
+        }
+      ],
+      "considerations": [
+        {
+          "id": "fact-pomegranate-sugar",
+          "title": "Contains natural sugars",
+          "description": "Pomegranate contains naturally occurring sugars. Consider overall carbohydrate intake as part of a balanced diet.",
+          "type": "consideration",
+          "evidenceLevel": "moderate",
+          "sourceIDs": [
+            "ifct-2017"
+          ]
+        }
+      ],
+      "excessIntake": [
+        {
+          "id": "fact-pomegranate-excess",
+          "title": "High intake adds energy",
+          "description": "High intake may contribute more energy than needed because of the fruit's natural sugar content.",
+          "type": "excessIntake",
+          "evidenceLevel": "moderate",
+          "sourceIDs": [
+            "ifct-2017"
+          ]
+        }
+      ],
+      "typicalServing": "A typical serving is about 100 g of arils.",
+      "evidenceLevel": "moderate"
+    }
+  },
+  {
+    "id": "food-mango",
+    "name": "Mango",
+    "category": "fruit",
+    "scientificName": "Mangifera indica",
+    "aliases": [
+      "Aam",
+      "Manga"
+    ],
+    "regionalNames": {
+      "hindi": "Aam",
+      "tamil": "Manga",
+      "telugu": "Mamidi"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-banana",
+    "name": "Banana",
+    "category": "fruit",
+    "scientificName": "Musa paradisiaca",
+    "aliases": [
+      "Kela",
+      "Vazhaipazham"
+    ],
+    "regionalNames": {
+      "hindi": "Kela",
+      "tamil": "Vazhaipazham",
+      "malayalam": "Vazha"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-apple",
+    "name": "Apple",
+    "category": "fruit",
+    "scientificName": "Malus domestica",
+    "aliases": [
+      "Seb"
+    ],
+    "regionalNames": {
+      "hindi": "Seb"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-lemon",
+    "name": "Lemon",
+    "category": "fruit",
+    "scientificName": "Citrus limon",
+    "aliases": [
+      "Nimbu",
+      "Elumichai"
+    ],
+    "regionalNames": {
+      "hindi": "Nimbu",
+      "tamil": "Elumichai"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-guava",
+    "name": "Guava",
+    "category": "fruit",
+    "scientificName": "Psidium guajava",
+    "aliases": [
+      "Amrood"
+    ],
+    "regionalNames": {
+      "hindi": "Amrood"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-papaya",
+    "name": "Papaya",
+    "category": "fruit",
+    "scientificName": "Carica papaya",
+    "aliases": [
+      "Papita"
+    ],
+    "regionalNames": {
+      "hindi": "Papita",
+      "tamil": "Pappali"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-orange",
+    "name": "Orange",
+    "category": "fruit",
+    "scientificName": null,
+    "aliases": [
+      "Santra",
+      "Naranga"
+    ],
+    "regionalNames": {
+      "hindi": "Santra"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-potato",
+    "name": "Potato",
+    "category": "vegetable",
+    "scientificName": "Solanum tuberosum",
+    "aliases": [
+      "Aloo",
+      "Urulai"
+    ],
+    "regionalNames": {
+      "hindi": "Aloo",
+      "tamil": "Urulaikizhangu"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-onion",
+    "name": "Onion",
+    "category": "vegetable",
+    "scientificName": "Allium cepa",
+    "aliases": [
+      "Pyaz",
+      "Vengayam"
+    ],
+    "regionalNames": {
+      "hindi": "Pyaz",
+      "tamil": "Vengayam"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-tomato",
+    "name": "Tomato",
+    "category": "vegetable",
+    "scientificName": "Solanum lycopersicum",
+    "aliases": [
+      "Tamatar",
+      "Thakkali"
+    ],
+    "regionalNames": {
+      "hindi": "Tamatar",
+      "tamil": "Thakkali"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-carrot",
+    "name": "Carrot",
+    "category": "vegetable",
+    "scientificName": "Daucus carota",
+    "aliases": [
+      "Gajar"
+    ],
+    "regionalNames": {
+      "hindi": "Gajar"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-cauliflower",
+    "name": "Cauliflower",
+    "category": "vegetable",
+    "scientificName": null,
+    "aliases": [
+      "Gobi",
+      "Phool gobhi"
+    ],
+    "regionalNames": {
+      "hindi": "Phool gobhi"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-brinjal",
+    "name": "Brinjal",
+    "category": "vegetable",
+    "scientificName": "Solanum melongena",
+    "aliases": [
+      "Baingan",
+      "Kathirikai",
+      "Eggplant"
+    ],
+    "regionalNames": {
+      "hindi": "Baingan",
+      "tamil": "Kathirikai"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-okra",
+    "name": "Okra",
+    "category": "vegetable",
+    "scientificName": "Abelmoschus esculentus",
+    "aliases": [
+      "Bhindi",
+      "Vendakkai",
+      "Lady finger"
+    ],
+    "regionalNames": {
+      "hindi": "Bhindi",
+      "tamil": "Vendakkai"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-green-chili",
+    "name": "Green chilli",
+    "category": "vegetable",
+    "scientificName": null,
+    "aliases": [
+      "Hari mirch",
+      "Pachamirchi"
+    ],
+    "regionalNames": {
+      "hindi": "Hari mirch",
+      "tamil": "Pachamirchi"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-spinach",
+    "name": "Spinach",
+    "category": "leafyVegetable",
+    "scientificName": "Spinacia oleracea",
+    "aliases": [
+      "Palak"
+    ],
+    "regionalNames": {
+      "hindi": "Palak",
+      "tamil": "Pasalai"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-fenugreek-leaves",
+    "name": "Fenugreek leaves",
+    "category": "leafyVegetable",
+    "scientificName": null,
+    "aliases": [
+      "Methi"
+    ],
+    "regionalNames": {
+      "hindi": "Methi"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-amaranth-leaves",
+    "name": "Amaranth leaves",
+    "category": "leafyVegetable",
+    "scientificName": null,
+    "aliases": [
+      "Chaulai",
+      "Thotakura"
+    ],
+    "regionalNames": {
+      "hindi": "Chaulai",
+      "telugu": "Thotakura"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-rice-raw",
+    "name": "Rice",
+    "category": "cereal",
+    "scientificName": "Oryza sativa",
+    "aliases": [
+      "Chawal",
+      "Arisi",
+      "Biyyam"
+    ],
+    "regionalNames": {
+      "hindi": "Chawal",
+      "tamil": "Arisi",
+      "telugu": "Biyyam"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-basmati-rice",
+    "name": "Basmati rice",
+    "category": "cereal",
+    "scientificName": null,
+    "aliases": [
+      "Basmati",
+      "Basmati chawal"
+    ],
+    "regionalNames": {
+      "hindi": "Basmati chawal"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-wheat-flour",
+    "name": "Wheat flour",
+    "category": "cereal",
+    "scientificName": null,
+    "aliases": [
+      "Atta",
+      "Godhumai maavu"
+    ],
+    "regionalNames": {
+      "hindi": "Atta",
+      "tamil": "Godhumai maavu"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-ragi",
+    "name": "Finger millet",
+    "category": "millet",
+    "scientificName": "Eleusine coracana",
+    "aliases": [
+      "Ragi",
+      "Nachni",
+      "Kezhvaragu"
+    ],
+    "regionalNames": {
+      "hindi": "Ragi",
+      "tamil": "Kezhvaragu",
+      "kannada": "Ragi"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-bajra",
+    "name": "Pearl millet",
+    "category": "millet",
+    "scientificName": "Pennisetum glaucum",
+    "aliases": [
+      "Bajra",
+      "Kambu"
+    ],
+    "regionalNames": {
+      "hindi": "Bajra",
+      "tamil": "Kambu"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-jowar",
+    "name": "Sorghum",
+    "category": "millet",
+    "scientificName": "Sorghum bicolor",
+    "aliases": [
+      "Jowar",
+      "Cholam"
+    ],
+    "regionalNames": {
+      "hindi": "Jowar",
+      "tamil": "Cholam"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-toor-dal",
+    "name": "Toor dal",
+    "category": "pulse",
+    "scientificName": "Cajanus cajan",
+    "aliases": [
+      "Arhar",
+      "Thuvaram paruppu",
+      "Dal",
+      "Tuvar dal"
+    ],
+    "regionalNames": {
+      "hindi": "Arhar",
+      "tamil": "Thuvaram paruppu",
+      "telugu": "Kandi pappu"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-moong-dal",
+    "name": "Moong dal",
+    "category": "pulse",
+    "scientificName": "Vigna radiata",
+    "aliases": [
+      "Moong",
+      "Pasi paruppu"
+    ],
+    "regionalNames": {
+      "hindi": "Moong",
+      "tamil": "Pasi paruppu"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-masoor-dal",
+    "name": "Masoor dal",
+    "category": "pulse",
+    "scientificName": null,
+    "aliases": [
+      "Masoor",
+      "Red lentil"
+    ],
+    "regionalNames": {
+      "hindi": "Masoor"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-chana-dal",
+    "name": "Chana dal",
+    "category": "pulse",
+    "scientificName": null,
+    "aliases": [
+      "Bengal gram dal",
+      "Kadalai paruppu"
+    ],
+    "regionalNames": {
+      "hindi": "Chana dal",
+      "tamil": "Kadalai paruppu"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-chickpea",
+    "name": "Chickpea",
+    "category": "legume",
+    "scientificName": "Cicer arietinum",
+    "aliases": [
+      "Chana",
+      "Kabuli chana",
+      "Kondakadalai"
+    ],
+    "regionalNames": {
+      "hindi": "Chana",
+      "tamil": "Kondakadalai"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-rajma",
+    "name": "Kidney beans",
+    "category": "legume",
+    "scientificName": null,
+    "aliases": [
+      "Rajma"
+    ],
+    "regionalNames": {
+      "hindi": "Rajma"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-turmeric",
+    "name": "Turmeric",
+    "category": "spice",
+    "scientificName": "Curcuma longa",
+    "aliases": [
+      "Haldi",
+      "Manjal",
+      "Pasupu",
+      "Arishina",
+      "Halad"
+    ],
+    "regionalNames": {
+      "hindi": "Haldi",
+      "tamil": "Manjal",
+      "telugu": "Pasupu",
+      "kannada": "Arishina",
+      "malayalam": "Manjal"
+    },
+    "serving": {
+      "amount": 2,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-cumin",
+    "name": "Cumin",
+    "category": "spice",
+    "scientificName": "Cuminum cyminum",
+    "aliases": [
+      "Jeera",
+      "Jeeragam"
+    ],
+    "regionalNames": {
+      "hindi": "Jeera",
+      "tamil": "Jeeragam"
+    },
+    "serving": {
+      "amount": 2,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-coriander-seed",
+    "name": "Coriander seed",
+    "category": "spice",
+    "scientificName": null,
+    "aliases": [
+      "Dhania",
+      "Kothamalli vidai"
+    ],
+    "regionalNames": {
+      "hindi": "Dhania",
+      "tamil": "Kothamalli vidai"
+    },
+    "serving": {
+      "amount": 2,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-black-pepper",
+    "name": "Black pepper",
+    "category": "spice",
+    "scientificName": "Piper nigrum",
+    "aliases": [
+      "Kali mirch",
+      "Milagu"
+    ],
+    "regionalNames": {
+      "hindi": "Kali mirch",
+      "tamil": "Milagu"
+    },
+    "serving": {
+      "amount": 1,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-cardamom",
+    "name": "Cardamom",
+    "category": "spice",
+    "scientificName": null,
+    "aliases": [
+      "Elaichi",
+      "Elakkai"
+    ],
+    "regionalNames": {
+      "hindi": "Elaichi",
+      "tamil": "Elakkai"
+    },
+    "serving": {
+      "amount": 1,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-fenugreek-seed",
+    "name": "Fenugreek seed",
+    "category": "spice",
+    "scientificName": null,
+    "aliases": [
+      "Methi dana",
+      "Vendhayam"
+    ],
+    "regionalNames": {
+      "hindi": "Methi dana",
+      "tamil": "Vendhayam"
+    },
+    "serving": {
+      "amount": 2,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-mustard-seed",
+    "name": "Mustard seed",
+    "category": "seed",
+    "scientificName": null,
+    "aliases": [
+      "Rai",
+      "Kadugu"
+    ],
+    "regionalNames": {
+      "hindi": "Rai",
+      "tamil": "Kadugu"
+    },
+    "serving": {
+      "amount": 2,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-ginger",
+    "name": "Ginger",
+    "category": "herb",
+    "scientificName": "Zingiber officinale",
+    "aliases": [
+      "Adrak",
+      "Inji"
+    ],
+    "regionalNames": {
+      "hindi": "Adrak",
+      "tamil": "Inji",
+      "malayalam": "Inji"
+    },
+    "serving": {
+      "amount": 5,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-garlic",
+    "name": "Garlic",
+    "category": "herb",
+    "scientificName": "Allium sativum",
+    "aliases": [
+      "Lehsun",
+      "Poondu"
+    ],
+    "regionalNames": {
+      "hindi": "Lehsun",
+      "tamil": "Poondu"
+    },
+    "serving": {
+      "amount": 5,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-curry-leaves",
+    "name": "Curry leaves",
+    "category": "herb",
+    "scientificName": null,
+    "aliases": [
+      "Kadi patta",
+      "Karuveppilai"
+    ],
+    "regionalNames": {
+      "hindi": "Kadi patta",
+      "tamil": "Karuveppilai"
+    },
+    "serving": {
+      "amount": 2,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-coriander-leaves",
+    "name": "Coriander leaves",
+    "category": "herb",
+    "scientificName": null,
+    "aliases": [
+      "Hara dhania",
+      "Kothamalli"
+    ],
+    "regionalNames": {
+      "hindi": "Hara dhania",
+      "tamil": "Kothamalli"
+    },
+    "serving": {
+      "amount": 5,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-almond",
+    "name": "Almond",
+    "category": "nut",
+    "scientificName": "Prunus dulcis",
+    "aliases": [
+      "Badam"
+    ],
+    "regionalNames": {
+      "hindi": "Badam",
+      "tamil": "Badam"
+    },
+    "serving": {
+      "amount": 15,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-cashew",
+    "name": "Cashew",
+    "category": "nut",
+    "scientificName": null,
+    "aliases": [
+      "Kaju",
+      "Mundiri"
+    ],
+    "regionalNames": {
+      "hindi": "Kaju",
+      "tamil": "Mundiri"
+    },
+    "serving": {
+      "amount": 15,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-groundnut",
+    "name": "Groundnut",
+    "category": "nut",
+    "scientificName": "Arachis hypogaea",
+    "aliases": [
+      "Mungfali",
+      "Verkadalai",
+      "Peanut"
+    ],
+    "regionalNames": {
+      "hindi": "Mungfali",
+      "tamil": "Verkadalai"
+    },
+    "serving": {
+      "amount": 20,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-coconut",
+    "name": "Coconut",
+    "category": "nut",
+    "scientificName": "Cocos nucifera",
+    "aliases": [
+      "Nariyal",
+      "Thengai"
+    ],
+    "regionalNames": {
+      "hindi": "Nariyal",
+      "tamil": "Thengai",
+      "malayalam": "Thengu"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-sesame",
+    "name": "Sesame seed",
+    "category": "seed",
+    "scientificName": null,
+    "aliases": [
+      "Til",
+      "Ellu"
+    ],
+    "regionalNames": {
+      "hindi": "Til",
+      "tamil": "Ellu"
+    },
+    "serving": {
+      "amount": 10,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-milk",
+    "name": "Cow milk",
+    "category": "dairy",
+    "scientificName": null,
+    "aliases": [
+      "Doodh",
+      "Paal"
+    ],
+    "regionalNames": {
+      "hindi": "Doodh",
+      "tamil": "Paal"
+    },
+    "serving": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-curd",
+    "name": "Curd",
+    "category": "dairy",
+    "scientificName": null,
+    "aliases": [
+      "Dahi",
+      "Thayir",
+      "Yogurt"
+    ],
+    "regionalNames": {
+      "hindi": "Dahi",
+      "tamil": "Thayir"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-paneer",
+    "name": "Paneer",
+    "category": "dairy",
+    "scientificName": null,
+    "aliases": [
+      "Cottage cheese",
+      "Panneer"
+    ],
+    "regionalNames": {
+      "hindi": "Paneer"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-buttermilk",
+    "name": "Buttermilk",
+    "category": "dairy",
+    "scientificName": null,
+    "aliases": [
+      "Chaas",
+      "Moru"
+    ],
+    "regionalNames": {
+      "hindi": "Chaas",
+      "tamil": "Moru"
+    },
+    "serving": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-egg",
+    "name": "Hen egg",
+    "category": "egg",
+    "scientificName": null,
+    "aliases": [
+      "Anda",
+      "Muttai"
+    ],
+    "regionalNames": {
+      "hindi": "Anda",
+      "tamil": "Muttai"
+    },
+    "serving": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-chicken",
+    "name": "Chicken",
+    "category": "poultry",
+    "scientificName": null,
+    "aliases": [
+      "Murgi"
+    ],
+    "regionalNames": {
+      "hindi": "Murgi"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-mutton",
+    "name": "Mutton",
+    "category": "meat",
+    "scientificName": null,
+    "aliases": [
+      "Gosht",
+      "Aattukari"
+    ],
+    "regionalNames": {
+      "hindi": "Gosht",
+      "tamil": "Aattukari"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-rohu",
+    "name": "Rohu",
+    "category": "fish",
+    "scientificName": null,
+    "aliases": [
+      "Rohu fish"
+    ],
+    "regionalNames": {
+      "hindi": "Rohu"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-prawn",
+    "name": "Prawn",
+    "category": "seafood",
+    "scientificName": null,
+    "aliases": [
+      "Jhinga",
+      "Eral"
+    ],
+    "regionalNames": {
+      "hindi": "Jhinga",
+      "tamil": "Eral"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-mustard-oil",
+    "name": "Mustard oil",
+    "category": "oil",
+    "scientificName": null,
+    "aliases": [
+      "Sarson ka tel"
+    ],
+    "regionalNames": {
+      "hindi": "Sarson ka tel"
+    },
+    "serving": {
+      "amount": 10,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-coconut-oil",
+    "name": "Coconut oil",
+    "category": "oil",
+    "scientificName": null,
+    "aliases": [
+      "Nariyal tel",
+      "Thengai ennai"
+    ],
+    "regionalNames": {
+      "hindi": "Nariyal tel",
+      "tamil": "Thengai ennai"
+    },
+    "serving": {
+      "amount": 10,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-groundnut-oil",
+    "name": "Groundnut oil",
+    "category": "oil",
+    "scientificName": null,
+    "aliases": [
+      "Mungfali tel"
+    ],
+    "regionalNames": {
+      "hindi": "Mungfali tel"
+    },
+    "serving": {
+      "amount": 10,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-ghee",
+    "name": "Ghee",
+    "category": "fat",
+    "scientificName": null,
+    "aliases": [
+      "Clarified butter",
+      "Tuppa"
+    ],
+    "regionalNames": {
+      "hindi": "Ghee",
+      "tamil": "Nei"
+    },
+    "serving": {
+      "amount": 10,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-butter",
+    "name": "Butter",
+    "category": "fat",
+    "scientificName": null,
+    "aliases": [
+      "Makhan"
+    ],
+    "regionalNames": {
+      "hindi": "Makhan"
+    },
+    "serving": {
+      "amount": 10,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-sugar",
+    "name": "Sugar",
+    "category": "sweetener",
+    "scientificName": null,
+    "aliases": [
+      "Cheeni",
+      "Sakkare",
+      "Sarkara"
+    ],
+    "regionalNames": {
+      "hindi": "Cheeni",
+      "tamil": "Sarkarai",
+      "kannada": "Sakkare"
+    },
+    "serving": {
+      "amount": 5,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true,
+    "nutrition": {
+      "basis": "100g",
+      "carbohydrateG": 100,
+      "sugarG": 100
+    }
+  },
+  {
+    "id": "food-jaggery",
+    "name": "Jaggery",
+    "category": "sweetener",
+    "scientificName": null,
+    "aliases": [
+      "Gur",
+      "Vellam",
+      "Bella"
+    ],
+    "regionalNames": {
+      "hindi": "Gur",
+      "tamil": "Vellam",
+      "kannada": "Bella"
+    },
+    "serving": {
+      "amount": 10,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-honey",
+    "name": "Honey",
+    "category": "sweetener",
+    "scientificName": null,
+    "aliases": [
+      "Shahad",
+      "Then"
+    ],
+    "regionalNames": {
+      "hindi": "Shahad",
+      "tamil": "Then"
+    },
+    "serving": {
+      "amount": 10,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-tea",
+    "name": "Tea",
+    "category": "ingredient",
+    "scientificName": null,
+    "aliases": [
+      "Chai"
+    ],
+    "regionalNames": {
+      "hindi": "Chai",
+      "tamil": "Theneer"
+    },
+    "serving": {
+      "amount": 2,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-tamarind",
+    "name": "Tamarind",
+    "category": "ingredient",
+    "scientificName": null,
+    "aliases": [
+      "Imli",
+      "Puli"
+    ],
+    "regionalNames": {
+      "hindi": "Imli",
+      "tamil": "Puli"
+    },
+    "serving": {
+      "amount": 10,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-asafoetida",
+    "name": "Asafoetida",
+    "category": "ingredient",
+    "scientificName": null,
+    "aliases": [
+      "Hing",
+      "Perungayam"
+    ],
+    "regionalNames": {
+      "hindi": "Hing",
+      "tamil": "Perungayam"
+    },
+    "serving": {
+      "amount": 1,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-dosa",
+    "name": "Dosa",
+    "category": "indianDish",
+    "scientificName": null,
+    "aliases": [
+      "Dosai",
+      "Dose"
+    ],
+    "regionalNames": {
+      "hindi": "Dosa",
+      "tamil": "Dosai",
+      "kannada": "Dose"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-idli",
+    "name": "Idli",
+    "category": "indianDish",
+    "scientificName": null,
+    "aliases": [
+      "Idly"
+    ],
+    "regionalNames": {
+      "tamil": "Idli",
+      "kannada": "Idli"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-sambar",
+    "name": "Sambar",
+    "category": "indianDish",
+    "scientificName": null,
+    "aliases": [
+      "Sambhar"
+    ],
+    "regionalNames": {
+      "tamil": "Sambar",
+      "telugu": "Sambar"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-dal-tadka",
+    "name": "Dal tadka",
+    "category": "indianDish",
+    "scientificName": null,
+    "aliases": [
+      "Dal",
+      "Tadka dal"
+    ],
+    "regionalNames": {
+      "hindi": "Dal tadka"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-roti",
+    "name": "Roti",
+    "category": "indianDish",
+    "scientificName": null,
+    "aliases": [
+      "Chapati",
+      "Phulka",
+      "Roti chapati"
+    ],
+    "regionalNames": {
+      "hindi": "Roti"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-biryani",
+    "name": "Biryani",
+    "category": "indianDish",
+    "scientificName": null,
+    "aliases": [
+      "Biriyani"
+    ],
+    "regionalNames": {
+      "hindi": "Biryani",
+      "tamil": "Biriyani"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  },
+  {
+    "id": "food-khichdi",
+    "name": "Khichdi",
+    "category": "indianDish",
+    "scientificName": null,
+    "aliases": [
+      "Khichri",
+      "Pongal"
+    ],
+    "regionalNames": {
+      "hindi": "Khichdi",
+      "tamil": "Pongal"
+    },
+    "serving": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "sourceIDs": [
+      "demo-sample"
+    ],
+    "demo": true
+  }
+]

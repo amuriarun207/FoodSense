@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ifct-2017",
+    "name": "IFCT 2017",
+    "organization": "ICMR-NIN",
+    "year": 2017,
+    "reference": "Indian Food Composition Tables",
+    "type": "compositionTable"
+  },
+  {
+    "id": "demo-sample",
+    "name": "FoodSense V1 sample",
+    "organization": "FoodSense",
+    "year": 2026,
+    "reference": "Development sample dataset \u2014 not an IFCT record",
+    "type": "demoSample"
+  }
+]
