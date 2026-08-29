@@ -1,12 +1,12 @@
-# FoodSense Privacy Policy
+# Ahar Privacy Policy
 
 **Last updated:** 29 August 2026
 
-FoodSense is an offline-first Indian food and nutrition reference app. This policy describes how the app handles information.
+Ahar is an offline foodIQ / AharIQ nutrition reference app. This policy describes how the app handles information.
 
 ## Summary
 
-FoodSense does **not** collect, sell, share, or transmit personal data. There are no accounts, no analytics, no advertising, no crash reporters, and no internet requirement.
+Ahar does **not** collect, sell, share, or transmit personal data. There are no accounts, no analytics, no advertising, no crash reporters, and no internet requirement.
 
 Apple App Store privacy nutrition label: **Data Not Collected**.
 
@@ -35,7 +35,7 @@ Uninstalling the app deletes this on-device data.
 
 ## Tracking
 
-FoodSense does not track you across other companies’ apps or websites. The privacy manifest sets tracking to false and lists no tracking domains.
+Ahar does not track you across other companies’ apps or websites. The privacy manifest sets tracking to false and lists no tracking domains.
 
 ## Health information
 
@@ -51,6 +51,6 @@ If this policy changes, the “Last updated” date will change. Because the app
 
 ## Contact
 
-For privacy questions, use the support email you publish on the App Store listing (see `AppStore/METADATA.md`).
-
-Replace this contact section with your real support address before submitting.
+Arun Kumar  
+Email: [arunkumar6207@gmail.com](mailto:arunkumar6207@gmail.com)  
+Phone: [+91 80198 97589](tel:+918019897589)

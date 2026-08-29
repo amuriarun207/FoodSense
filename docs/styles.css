@@ -1,0 +1,88 @@
+:root {
+  --green: #1b7a43;
+  --green-dark: #0e3a26;
+  --text: #1c1c1e;
+  --muted: #5c5c62;
+  --bg: #f6f7f4;
+  --card: #ffffff;
+  --max: 40rem;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 17px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+a { color: var(--green); }
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  background: var(--green-dark);
+  color: #fff;
+}
+
+.site-header a { color: #fff; text-decoration: none; }
+.site-header nav { display: flex; gap: 1rem; font-size: 0.95rem; }
+.brand { font-weight: 700; font-size: 1.15rem; }
+
+main {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3rem;
+}
+
+.hero { padding-top: 0.5rem; }
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.75rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+h1 { font-size: 2rem; line-height: 1.2; margin: 0.35rem 0 0.75rem; }
+h2 { font-size: 1.2rem; margin-top: 2rem; }
+h3 { font-size: 1rem; margin-bottom: 0.25rem; }
+.lede { font-size: 1.1rem; color: var(--muted); }
+
+.cta-row { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.25rem; }
+.button {
+  display: inline-block;
+  background: var(--green);
+  color: #fff;
+  text-decoration: none;
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.button.ghost {
+  background: transparent;
+  color: var(--green);
+  outline: 1px solid var(--green);
+}
+
+.features { padding-left: 1.1rem; }
+.features li { margin: 0.5rem 0; }
+
+.card {
+  background: var(--card);
+  border-radius: 14px;
+  padding: 1rem 1.1rem;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.04);
+}
+
+footer {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 1.25rem 2.5rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}

@@ -1,37 +1,41 @@
-# App Store screenshots
+# App Store screenshots — Ahar
 
-App Store Connect requires device-class screenshots. Marketing mockups in this folder are **composition references**, not a substitute for captures from Simulator or a device.
+These are **real iPhone captures** of Ahar (no marketing frames, no fake UI). That is what App Store review expects.
 
-## Required sizes (as of 2026 — confirm in App Store Connect)
+## Upload these 10 files
 
-| Display | Typical size (px) | Notes |
+Folder: `AppStore/screenshots/`
+
+Each file is **1284 × 2778 px** (accepted in the slot that lists `1242 × 2688`, `1284 × 2778`, or the landscape pairs).
+
+| # | File | Screen |
 | --- | --- | --- |
-| iPhone 6.7" (required) | 1290 × 2796 or 1320 × 2868 | iPhone 15/16/17 Pro Max class |
-| iPhone 6.5" | 1284 × 2778 | If Connect still asks |
-| iPhone 5.5" | 1242 × 2208 | Only if Connect still asks |
+| 1 | `01-home.png` | Home — search, categories, recently viewed |
+| 2 | `02-search.png` | Search “anar” → Pomegranate |
+| 3 | `03-nutrition.png` | Pomegranate nutrition per 100 g |
+| 4 | `04-quantity.png` | Quantity 200 g, scaled values |
+| 5 | `05-health.png` | Health profile |
+| 6 | `06-favorites.png` | Favorites |
+| 7 | `07-categories.png` | Fruits list |
+| 8 | `08-settings.png` | Settings — About / AharIQ |
+| 9 | `09-spices.png` | Spices category |
+| 10 | `10-offline.png` | Settings — evidence + privacy (offline) |
 
-Capture **portrait**. This app is iPhone-portrait first; iPad screenshots are optional unless you promote iPad.
+Same 10 files at **1242 × 2688** are in `1242x2688/`.
 
-## How to capture real screenshots
+## Do not upload
 
-1. In Xcode, run FoodSense on **iPhone 16 Pro Max** or **iPhone 17 Pro Max**.
-2. Exercise: Home with search, Pomegranate detail with 100 g and 200 g, Favorites, Settings.
-3. Device → Screenshot, or `xcrun simctl io booted screenshot`.
-4. Export lossless PNG. Do not add a device bezel unless you use Apple’s screenshot frames.
+- Landscape (`2688 × 1242` or `2778 × 1284`). Ahar is **iPhone portrait-only**. Landscape shots of a portrait app are a common rejection reason.
+- **App previews** (the “up to 3” row) are **videos**, 15–30 seconds. Leave that row empty unless you record a clip on device.
 
-Suggested five frames:
+## Recapture from Simulator
 
-1. Home — search field + popular categories
-2. Search results for “anar”
-3. Pomegranate detail — nutrition cards
-4. Same detail — quantity 200 g + health profile
-5. Settings — offline / not medical advice
+```bash
+export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer
+xcodebuild test -project FoodSense.xcodeproj -scheme FoodSense \
+  -destination 'platform=iOS Simulator,name=iPhone 16 Plus' \
+  -only-testing:FoodSenseUITests/AppStoreScreenshotTests
+python3 AppStore/scripts/export_screenshots.py
+```
 
-## Files in this folder
-
-| File | Purpose |
-| --- | --- |
-| `screenshots/marketing-home.png` | 9:16 UI mockup (resize before upload if needed) |
-| `screenshots/marketing-detail.png` | 9:16 UI mockup |
-
-Do not upload mockups that show UI the app does not actually render. Prefer Simulator captures of the real SwiftUI screens.
+Raw simulator PNGs (1290 × 2796) stay in `raw/`.

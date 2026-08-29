@@ -34,6 +34,7 @@ struct FoodRowView: View {
         }
         .accessibilityElement(children: .combine)
         .accessibilityLabel(accessibilityText)
+        .accessibilityIdentifier("food-row-\(food.id)")
     }
 
     private var accessibilityText: String {

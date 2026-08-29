@@ -1,25 +1,25 @@
-# FoodSense
+# Ahar
 
-**Know what you eat.**
+**Offline foodIQ / AharIQ. Know what you eat.**
 
-FoodSense is an offline-first iOS app that helps users understand the food they eat. It provides nutrition information, serving-size calculations, health considerations, and food details for Indian foods, spices, ingredients, fruits, vegetables, grains, pulses, and popular dishes.
+Ahar is an offline iOS app that helps you understand the food you eat. It provides nutrition information, serving-size calculations, health considerations, and food details for spices, ingredients, fruits, vegetables, grains, pulses, and everyday dishes.
 
-## ✨ Features
+## Features
 
-* 🔍 **Offline Food Search** — Search foods by name, alias, or regional name.
-* 🇮🇳 **Indian Food Database** — Focused on Indian foods, spices, ingredients, and dishes.
-* 🥗 **Nutrition Information** — Calories, protein, carbohydrates, fat, sugar, fibre, sodium, and other nutrients where available.
-* ⚖️ **Serving Calculator** — Adjust the quantity and see calculated nutritional values.
-* ❤️ **Health Profiles** — View curated benefits, considerations, and excessive-intake information.
-* 📚 **Sources** — Track the source of nutrition and health information.
-* ⭐ **Favorites** — Save frequently used foods.
-* 🕘 **Recently Viewed** — Quickly access foods viewed recently.
-* 📱 **100% Offline** — Core functionality works without an internet connection.
-* 🔒 **Privacy Friendly** — No account or backend required for the core experience.
+* **Offline food search** — Search foods by name, alias, or regional name.
+* **AharIQ food library** — Foods, spices, ingredients, and dishes available on device as foodIQ.
+* **Nutrition information** — Calories, protein, carbohydrates, fat, sugar, fibre, sodium, and other nutrients where available.
+* **Serving calculator** — Adjust the quantity and see calculated nutritional values.
+* **Health profiles** — View curated benefits, considerations, and excessive-intake information.
+* **Sources** — Track the source of nutrition and health information.
+* **Favorites** — Save frequently used foods.
+* **Recently viewed** — Quickly access foods viewed recently.
+* **100% offline** — Core functionality works without an internet connection.
+* **Privacy friendly** — No account or backend required for the core experience.
 
-## 🏗 Architecture
+## Architecture
 
-FoodSense uses a local-first architecture:
+Ahar uses a local-first architecture:
 
 ```text
 SwiftUI
@@ -46,14 +46,14 @@ Verified Food Data
        ↓
  Local Food Database
        ↓
-    FoodSense
+    Ahar
 ```
 
-## 📦 Data
+## Data
 
-The initial database is designed around Indian food composition data, with **ICMR-NIN Indian Food Composition Tables (IFCT)** as the primary foundation.
+The initial database is designed around published food composition data, with composition tables as the primary foundation.
 
-The database is designed to grow from approximately **1,000 foods** to a much larger food knowledge base over time.
+The database is designed to grow from a starter set of foods to a much larger food knowledge base over time.
 
 Data is separated into:
 
@@ -65,9 +65,9 @@ Data is separated into:
 * Sources
 * Categories
 
-## 🧮 Nutrition Calculation
+## Nutrition calculation
 
-FoodSense stores nutritional values using a standard reference quantity, typically per 100g.
+Ahar stores nutritional values using a standard reference quantity, typically per 100g.
 
 For a selected quantity:
 
@@ -85,7 +85,7 @@ For example:
 
 All calculations are performed locally on the device.
 
-## 🛠 Technology
+## Technology
 
 * Swift
 * SwiftUI
@@ -94,7 +94,7 @@ All calculations are performed locally on the device.
 * Foundation
 * XCTest / Swift Testing
 
-## 🎯 V1 Goals
+## V1 goals
 
 The first version intentionally does **not** use:
 
@@ -105,13 +105,13 @@ The first version intentionally does **not** use:
 * User accounts
 * Internet connectivity
 
-The goal is to establish a reliable, offline food and nutrition foundation first.
+The goal is to establish a reliable, offline foodIQ / AharIQ foundation first.
 
-## 🚀 Future Roadmap
+## Future roadmap
 
 Potential future capabilities include:
 
-* Expanded Indian food database
+* Expanded food database
 * Barcode scanning
 * Packaged food support
 * More regional languages
@@ -121,14 +121,14 @@ Potential future capabilities include:
 * AI-powered food questions
 * Cloud synchronization
 
-## ⚠️ Disclaimer
+## Disclaimer
 
-FoodSense provides general food and nutrition information for educational purposes. It is not intended to diagnose, treat, or prevent any medical condition and should not replace professional medical advice.
+Ahar provides general food and nutrition information for educational purposes. It is not intended to diagnose, treat, or prevent any medical condition and should not replace professional medical advice.
 
-## 📄 Data Sources
+## Data sources
 
 Food and nutrition data should be attributed to the appropriate original sources. The project should not present generated or unverified nutritional information as authoritative.
 
 ---
 
-**FoodSense — Know what you eat.**
+**Ahar — offline foodIQ / AharIQ. Know what you eat.**

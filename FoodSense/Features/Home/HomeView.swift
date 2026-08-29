@@ -43,7 +43,7 @@ private struct HomeContentView: View {
             .padding(.horizontal)
             .padding(.bottom, 24)
         }
-        .navigationTitle("Food Sense")
+        .navigationTitle("Ahar")
         .navigationBarTitleDisplayMode(.large)
         .background(Color(.systemGroupedBackground))
         .navigationDestination(for: String.self) { foodID in
@@ -94,7 +94,7 @@ private struct HomeContentView: View {
             ContentUnavailableView.search(text: viewModel.query)
         } else {
             VStack(alignment: .leading, spacing: 8) {
-                Text("\(viewModel.searchResults.count) matches")
+                Text(viewModel.searchResults.count == 1 ? "1 match" : "\(viewModel.searchResults.count) matches")
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
                 LazyVStack(spacing: 0) {
@@ -141,6 +141,7 @@ private struct HomeContentView: View {
                             .background(.background, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
                     }
                     .accessibilityLabel(group.displayName)
+                    .accessibilityIdentifier("category-\(group.rawValue)")
                 }
             }
         }

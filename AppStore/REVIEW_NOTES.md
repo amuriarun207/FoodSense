@@ -1,6 +1,6 @@
-# App Review notes — FoodSense 1.0
+# App Review notes — Ahar 1.0
 
-FoodSense is **fully offline**. It does not use the network, sign-in, or In-App Purchase.
+Ahar is **fully offline**. It does not use the network, sign-in, or In-App Purchase. Ahar is an offline foodIQ / AharIQ nutrition reference.
 
 ## First launch
 
@@ -11,7 +11,7 @@ If you test in Airplane Mode from a cold install, that is expected and supported
 ## Suggested test path
 
 1. Enable **Airplane Mode**.
-2. Launch FoodSense.
+2. Launch Ahar.
 3. Wait until Home appears (search field: “Search food, spice, ingredient…”).
 4. Search **anar** — result should include **Pomegranate**.
 5. Search **haldi** — result should include **Turmeric**.
@@ -24,7 +24,7 @@ If you test in Airplane Mode from a cold install, that is expected and supported
 
 ## Demo vs curated data
 
-Some foods are marked **demo** in the UI. Those are sample records for development, not IFCT authoritative rows. Pomegranate in V1 is the schema example citing IFCT 2017 by name.
+Some foods are marked **demo** in the UI. Those are sample records for development, not composition-table authoritative rows. Pomegranate in V1 is the schema example citing IFCT 2017 by name.
 
 ## What you will not find
 
@@ -35,4 +35,8 @@ Some foods are marked **demo** in the UI. Those are sample records for developme
 
 ## Contact
 
-Use the App Review contact fields in App Store Connect. There is no backend to whitelist.
+Arun Kumar  
+Email: arunkumar6207@gmail.com  
+Phone: +91 80198 97589  
+
+There is no backend to whitelist. The app has no demo account because there is no sign-in.

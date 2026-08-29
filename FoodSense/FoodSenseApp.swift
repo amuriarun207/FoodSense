@@ -1,9 +1,16 @@
 import SwiftUI
 import SwiftData
+import UIKit
 
 @main
 struct FoodSenseApp: App {
     @State private var appModel = AppModel()
+
+    init() {
+        if ProcessInfo.processInfo.arguments.contains("-UITesting") {
+            UIView.setAnimationsEnabled(false)
+        }
+    }
 
     var body: some Scene {
         WindowGroup {

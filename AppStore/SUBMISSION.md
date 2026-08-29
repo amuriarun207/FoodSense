@@ -1,19 +1,19 @@
-# App Store submission checklist — FoodSense 1.0
+# App Store submission checklist — Ahar 1.0
 
 Complete in Xcode and App Store Connect before you submit.
 
 ## In Xcode (you must do)
 
 - [ ] Open `FoodSense.xcodeproj`
-- [ ] Signing & Capabilities → Team → **select your Apple Developer team** (no Team ID is stored in the project on purpose)
-- [ ] Confirm bundle ID `com.learning.FoodSense` is registered in your developer account (or change it to your ID)
+- [ ] Signing & Capabilities → Team → **select your Apple Developer team**
+- [ ] Confirm bundle ID `com.foodsense.com` is registered in your developer account (or change it to your ID)
 - [ ] Product → Archive for **Any iOS Device (arm64)**
 - [ ] Upload the build with Organizer or Transporter
 - [ ] Run unit tests: Product → Test
 
 ## Already configured in the project
 
-- Display name: FoodSense
+- Display name: **Ahar**
 - Version 1.0 / Build 1
 - iOS 17.0 deployment target
 - iPhone + iPad device family (iPhone portrait; iPad additional orientations)
@@ -27,15 +27,20 @@ Complete in Xcode and App Store Connect before you submit.
 
 ## App Store Connect
 
-- [ ] Create the app with bundle ID `com.learning.FoodSense`
+- [ ] Create the app with name **Ahar** and bundle ID `com.foodsense.com`
 - [ ] Paste metadata from `METADATA.md`
-- [ ] Host `PRIVACY.md` on HTTPS and set Privacy Policy URL
+- [ ] Enable GitHub Pages on `docs/` (see URLs in `METADATA.md`)
+- [ ] Privacy Policy URL: `https://amuriarun207.github.io/FoodSense/privacy.html`
+- [ ] Support URL: `https://amuriarun207.github.io/FoodSense/support.html`
+- [ ] Marketing URL (optional): `https://amuriarun207.github.io/FoodSense/`
+- [ ] App Review contact: Arun Kumar, arunkumar6207@gmail.com, +91 80198 97589
 - [ ] App Privacy questionnaire: **Data Not Collected**
 - [ ] Age rating questionnaire (expected 4+)
-- [ ] Upload real screenshots (see `SCREENSHOTS.md`)
+- [ ] Upload the 10 screenshots in `screenshots/` (see `SCREENSHOTS.md`)
+- [ ] App previews (optional videos) are **not** required — skip that slot if you have no clip
 - [ ] Paste `REVIEW_NOTES.md` into Review Notes
 - [ ] Export compliance: uses non-exempt encryption = **No**
-- [ ] Content rights: you are responsible for IFCT/demo data claims in the listing
+- [ ] Content rights: you are responsible for composition-table / demo data claims in the listing
 
 ## After first submission
 

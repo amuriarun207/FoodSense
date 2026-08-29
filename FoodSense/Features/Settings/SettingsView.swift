@@ -9,7 +9,7 @@ struct SettingsView: View {
     var body: some View {
         List {
             Section("About") {
-                Text("FoodSense is an offline-first Indian food and nutrition reference. It does not diagnose conditions or provide medical advice.")
+                Text("Ahar is an offline foodIQ / AharIQ nutrition reference. It does not diagnose conditions or provide medical advice.")
             }
 
             Section("Data") {

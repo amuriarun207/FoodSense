@@ -12,8 +12,8 @@ nonisolated enum PreviewData {
 
     static let demoSource = Source(
         id: "demo-sample",
-        name: "FoodSense V1 sample",
-        organization: "FoodSense",
+        name: "Ahar V1 sample",
+        organization: "Ahar",
         year: 2026,
         reference: "Development sample dataset — not an IFCT record",
         type: .demoSample
