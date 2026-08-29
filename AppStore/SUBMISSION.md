@@ -36,7 +36,8 @@ Complete in Xcode and App Store Connect before you submit.
 - [ ] App Review contact: Arun Kumar, arunkumar6207@gmail.com, +91 80198 97589
 - [ ] App Privacy questionnaire: **Data Not Collected**
 - [ ] Age rating questionnaire (expected 4+)
-- [ ] Upload the 10 screenshots in `screenshots/` (see `SCREENSHOTS.md`)
+- [ ] Upload the 10 iPhone screenshots in `screenshots/` (see `SCREENSHOTS.md`)
+- [ ] Upload the 10 iPad 12.9"/13" screenshots in `screenshots/ipad/`
 - [ ] App previews (optional videos) are **not** required — skip that slot if you have no clip
 - [ ] Paste `REVIEW_NOTES.md` into Review Notes
 - [ ] Export compliance: uses non-exempt encryption = **No**

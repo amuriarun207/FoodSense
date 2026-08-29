@@ -3,7 +3,9 @@ import XCTest
 /// Captures the real running app for App Store Connect.
 final class AppStoreScreenshotTests: XCTestCase {
     private var screenshotDirectory: URL {
-        URL(fileURLWithPath: "/Users/arunkumar/workspace/FoodSense/AppStore/screenshots/raw")
+        let simulatorName = ProcessInfo.processInfo.environment["SIMULATOR_DEVICE_NAME"] ?? ""
+        let folder = simulatorName.localizedCaseInsensitiveContains("iPad") ? "raw-ipad" : "raw"
+        return URL(fileURLWithPath: "/Users/arunkumar/workspace/FoodSense/AppStore/screenshots/\(folder)")
     }
 
     override func setUpWithError() throws {
@@ -52,13 +54,13 @@ final class AppStoreScreenshotTests: XCTestCase {
             favorite.tap()
         }
 
-        app.tabBars.buttons["Favorites"].tap()
-        XCTAssertTrue(app.navigationBars["Favorites"].waitForExistence(timeout: 8))
+        tapTab(app, "Favorites")
+        XCTAssertTrue(app.navigationBars["Favorites"].waitForExistence(timeout: 8) || app.staticTexts["Favorites"].waitForExistence(timeout: 8))
         XCTAssertTrue(app.staticTexts["Pomegranate"].waitForExistence(timeout: 8))
         sleepShort()
         capture(app, name: "06-favorites")
 
-        app.tabBars.buttons["Home"].tap()
+        tapTab(app, "Home")
         if app.navigationBars.buttons["Ahar"].waitForExistence(timeout: 2) {
             app.navigationBars.buttons["Ahar"].tap()
         }
@@ -90,7 +92,7 @@ final class AppStoreScreenshotTests: XCTestCase {
         sleepShort()
         capture(app, name: "09-spices")
 
-        app.tabBars.buttons["Settings"].tap()
+        tapTab(app, "Settings")
         XCTAssertTrue(app.navigationBars["Settings"].waitForExistence(timeout: 8))
         sleepShort()
         capture(app, name: "08-settings")
@@ -98,6 +100,18 @@ final class AppStoreScreenshotTests: XCTestCase {
         swipeUp(app)
         sleepShort()
         capture(app, name: "10-offline")
+    }
+
+    @MainActor
+    private func tapTab(_ app: XCUIApplication, _ name: String) {
+        let tabBarButton = app.tabBars.buttons[name]
+        if tabBarButton.exists {
+            tabBarButton.tap()
+            return
+        }
+        let button = app.buttons[name].firstMatch
+        XCTAssertTrue(button.waitForExistence(timeout: 4), "Tab \(name) should exist")
+        button.tap()
     }
 
     @MainActor
